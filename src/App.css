@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+.background-image {
+  background-image: 
+  url(
+"/home/manoj/Downloads/2e37cb9e-ba73-45af-968f-065811732402.png");
+  height: 900px;
+}
+.app-logo {
+  position:absolute;
+  left: 150px;
+  top: 260px;
+}
+.heading{
+  color: white;
+  position:absolute;
+  left: 150px;
+  top: 350px;
+}
+.text{
+  color: white;
+  position:absolute;
+  left: 150px;
+  top: 450px;
+  text-align: left;
+  font-size: medium;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  margin: 0;
+}
+.nav-ul li a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+
+}
+.nav-ul {
+position: relative;
+top: -10px;
+padding: 5px;
+margin: 0;
+background-color: black;
+}
+.footer{
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+
+}
+.about-us{
+  text-align: left;
+}
