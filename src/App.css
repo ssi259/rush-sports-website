@@ -89,3 +89,15 @@ background-color: black;
 .about-us{
   text-align: left;
 }
+.play-store{
+  width: 10%;
+  height: auto;
+  position:absolute;
+  left: 150px;
+  top: 550px;
+}
+.phone-image{
+  position: relative;
+  left: 300px;
+  top: 120px
+}
