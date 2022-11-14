@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 function Policy(){
     return(
         <div className="privacy">
@@ -81,7 +82,8 @@ function Policy(){
             Wave Silver Tower Sector 18
             Noida -201301
 
-            This document was last updated on 10th Nov 2022.
+            This document was last updated on 10th Nov 2022.<br/>
+            <Link to = "/" >Home</Link>
         </div>
     )
 }
