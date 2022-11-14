@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100%;
 }
 
 .App-logo {
@@ -39,7 +40,7 @@
 .background-image {
   background-image: 
   url(
-"/home/manoj/Downloads/2e37cb9e-ba73-45af-968f-065811732402.png");
+"../src/background.png");
   height: 900px;
 }
 .app-logo {
@@ -81,10 +82,9 @@ margin: 0;
 background-color: black;
 }
 .footer{
-  position: absolute;
   bottom: -5px;
   width: 100%;
-
+  margin: 35px;
 }
 .about-us{
   text-align: left;
@@ -100,4 +100,8 @@ background-color: black;
   position: relative;
   left: 300px;
   top: 120px
+}
+.footer {
+  margin: -15px;
+  width: 100%;
 }

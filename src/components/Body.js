@@ -20,7 +20,9 @@ function Body(){
         </div>
       </h3>
       <div>
-        <img src = {playstore} className = "play-store" />
+        <a href="https://play.google.com" target="_blank" rel="noreferrer">
+          <img src = {playstore} className = "play-store" />
+        </a>
       </div>
       <div>
         <img src = {image} className = "phone-image" />
