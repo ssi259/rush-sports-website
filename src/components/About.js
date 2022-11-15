@@ -7,7 +7,6 @@ function About(){
                 We believe that private coaching is the secret to reaching the next level in sports + life.<br/>
                 With thousands of coaches across the country, and hundreds of training sessions happening every day, we are the nation's leading sports coaching company.<br/>
                 <Link to = "/" >Home</Link>
-
             </div> 
         </div>)
 }

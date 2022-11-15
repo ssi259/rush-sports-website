@@ -2,6 +2,11 @@ import '../App.css';
 import logo from '../logo.svg';
 import playstore from '../playstore.png';
 import image from '../phone-image.png';
+import {Link} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Footer from './Footer';
+
 
 
 
@@ -26,6 +31,10 @@ function Body(){
       </div>
       <div>
         <img src = {image} className = "phone-image" />
+      </div>
+      <div className='download-section'>
+        <h1>Get Rush App today</h1>
+        <h4 className='download-section-text'>It takes 30 seconds to sign up. Download the app and create<br/> an account today and we’ll show you nearby sports classes <br/> from best coaches.</h4>
       </div>
     </div>
     );

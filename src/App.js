@@ -18,8 +18,13 @@ function App() {
           <Route path = "/policies" element={<Policies/>}></Route>
           <Route path = "/policy" element={<Policy/>}></Route>
         </Routes>
-        <Footer/>
+        <div>
+        <ul className='nav-ul'>
+          <Footer/>
+        </ul>
+      </div>
       </BrowserRouter>
+
     </div>
   );
 }
