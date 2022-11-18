@@ -338,7 +338,7 @@ function Policy(){
 
                     Noida -201301
 
-                    <br/>This document was last updated on 10th Nov 2022.
+                    <p style={{textAlign:'center',margin:'50px'}}>This document was last updated on 18th Nov 2022.</p>
 
                 </p>
             </div>
