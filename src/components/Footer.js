@@ -8,7 +8,7 @@ function Footer(){
             <li><Link to = "/policies" >Cancellation & Refund Policy</Link></li>
             <li><Link to = "/policy" >Privacy Policy</Link></li>
 
-            <li><Link to = "/tnc" >Terms and Consitions</Link></li>
+            <li><Link to = "/tnc" >Terms and Conditions</Link></li>
             <li><Link to = "/" >Home</Link></li>
     </div>)
 }
