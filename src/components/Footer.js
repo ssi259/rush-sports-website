@@ -6,7 +6,8 @@ function Footer(){
             <li><Link to = "/about" >About</Link></li>
             <li><Link to = "/contactUs" >Contact Us</Link></li>
             <li><Link to = "/policies" >Cancellation & Refund Policy</Link></li>
-            <li><a href = "https://drive.google.com/file/d/1Zjdtkv5P-nk_rqmQmmP_ceZa35a6BkkP/view?usp=sharing">Privacy Policy</a></li>
+            <li><Link to = "/policy" >Privacy Policy</Link></li>
+
             <li><a href = "https://drive.google.com/file/d/1vrVVGrhS95CZ7oqbLmoG4Z-YfdOIE9e5/view?usp=sharing">Terms And Conditions</a></li>
             <li><Link to = "/" >Home</Link></li>
     </div>)
