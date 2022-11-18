@@ -6,6 +6,8 @@ import ContactUs from '../src/components/ContactUs'
 import Policies from '../src/components/Policies'
 import Footer from '../src/components/Footer'
 import Policy from './components/Policy';
+import TnC from './components/tnc';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route path = "/contactUs" element={<ContactUs/>}></Route>
           <Route path = "/policies" element={<Policies/>}></Route>
           <Route path = "/policy" element={<Policy/>}></Route>
+          <Route path = "/tnc" element={<TnC/>}></Route>
         </Routes>
         <div>
         <ul className='nav-ul'>

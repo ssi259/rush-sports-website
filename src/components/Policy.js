@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 function Policy(){
     return(
 <body >
@@ -8,7 +7,7 @@ function Policy(){
             <h2 class="center margin-0 pad-td-32 col-black">
                 Privacy Policy
             </h2>
-            <div class="mg-30">
+            <div className="mg-30">
                 <p>
                     RushSports.in and our associates/partners/successors/permitted assigns
                     ("RushSports.in","we","us" and"our") are fully committed to respecting your privacy and are
