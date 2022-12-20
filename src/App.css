@@ -83,14 +83,19 @@ color: black;
 .about-us{
   text-align: left;
 }
-.play-store{
+.play-store1{
   width: 10%;
   height: auto;
   position:absolute;
-  left: 150px;
-  top: 550px; 
   left: 850px;
   top: 1100px;
+}
+.play-store2{
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 150px;
+  top: 600px;
 }
 .phone-image{
   position: relative;

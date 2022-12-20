@@ -24,8 +24,8 @@ function Body(){
         </div>
       </h3>
       <div>
-        <a href="https://play.google.com" target="_blank" rel="noreferrer">
-          <img src = {playstore} className = "play-store" />
+          <a href="https://play.google.com/store/apps/details?id=in.rushsports.playerapp" target="_blank" rel="noreferrer">
+          <img src = {playstore} className = "play-store1" />
         </a>
       </div>
       <div>
@@ -35,6 +35,11 @@ function Body(){
         <h1>Get Rush App today</h1>
         <h4 className='download-section-text'>It takes 30 seconds to sign up. Download the app and create<br/> an account today and we’ll show you nearby sports classes <br/> from best coaches.</h4>
       </div>
+        <div>
+          <a href="https://play.google.com/store/apps/details?id=in.rushsports.playerapp" target="_blank" rel="noreferrer">
+            <img src={playstore} className="play-store2" />
+          </a>
+        </div>
     </div>
     );
 }
