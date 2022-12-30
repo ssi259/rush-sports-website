@@ -5,11 +5,13 @@ import image from '../phone-image.png';
 import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-
-
+import ContactModal from './ContactModal';
+import { useState } from 'react';
 
 
 function Body(){
+  const [openModal, setOpenModal] = useState(false);
+
     return(
     <div className="background-image">
       <div className='logo'>
@@ -23,6 +25,14 @@ function Body(){
           for For?
         </div>
       </h3>
+      <button
+            onClick={() => {
+              setOpenModal(true);
+            }}
+          >
+            Contact Us
+          </button>
+        {openModal && <ContactModal closeModal={setOpenModal} />}
       <div>
           <a href="https://play.google.com/store/apps/details?id=in.rushsports.playerapp" target="_blank" rel="noreferrer">
           <img src = {playstore} className = "play-store1" />

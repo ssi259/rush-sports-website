@@ -8,7 +8,6 @@ import Footer from '../src/components/Footer'
 import Policy from './components/Policy';
 import TnC from './components/tnc';
 
-
 function App() {
   return (
     <div className="App">
