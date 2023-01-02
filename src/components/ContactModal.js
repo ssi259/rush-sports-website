@@ -1,8 +1,9 @@
 import React, { useState,useEffect } from "react";
 function ContactModal({closeModal}){
     const initialValues = { 
-        name: "",
-        phone_number: "",
+        first_name: "",
+        last_name: "",
+        mobile_number: "",
         message: "",
         email: "",
     };
@@ -17,9 +18,10 @@ function ContactModal({closeModal}){
     async function submit(e){
         e.preventDefault();
         const contact_data = {
-                name: data.name,
-                phone_number: data.phone_number,
-                message: data.message,
+                first_name: data.first_name,
+                last_name: data.last_name,
+                mobile_number: data.mobile_number,
+                description: data.description,
                 email: data.email,
             }
             console.log(contact_data,"contact submitted successfully")
@@ -38,7 +40,13 @@ function ContactModal({closeModal}){
                         <div className="form-group row">
                             <label htmlFor="name" className="col-sm-2 label">Name</label>
                             <div className="col-sm-10">
-                            <input onChange={(e)=>handle(e)} id = "name" className="form-control" value= {data.name} name = "name" placeholder="Name"/>
+                            <input onChange={(e)=>handle(e)} id = "first_name" className="form-control" value= {data.name} name = "first_name" placeholder="first_Name"/>
+                            </div>
+                        </div>
+                        <div className="form-group row">
+                            <label htmlFor="last_name" className="col-sm-2 label">last_name</label>
+                            <div className="col-sm-10">
+                            <input onChange={(e)=>handle(e)} id = "last_name" className="form-control" value= {data.email} name = "last_name" placeholder="last_name"/>
                             </div>
                         </div>
                         <div className="form-group row">
@@ -48,15 +56,15 @@ function ContactModal({closeModal}){
                             </div>
                         </div>
                         <div className="form-group row">
-                            <label htmlFor="phone_number" className="col-sm-2 label">phone_number</label>
+                            <label htmlFor="mobile_number" className="col-sm-2 label">mobile_number</label>
                             <div className="col-sm-10">
-                            <input onChange={(e)=>handle(e)} id = "phone" className="form-control" value= {data.phone_number} name = "phone_number" placeholder="Phone Number"/>
+                            <input onChange={(e)=>handle(e)} id = "mobile" className="form-control" value= {data.mobile_number} name = "mobile_number" placeholder="mobile Number"/>
                             </div>
                         </div>
                         <div className="form-group row">
-                            <label htmlFor="message" className="col-sm-2 label">message</label>
+                            <label htmlFor="description" className="col-sm-2 label">description</label>
                             <div className="col-sm-10">
-                            <textarea onChange={(e)=>handle(e)} name="message" className="form-control" id="about-coach" placeholder="Message"/>
+                            <textarea onChange={(e)=>handle(e)} name="description" className="form-control" id="about-coach" placeholder="description"/>
                             </div>
                         </div>
                         <div className="form-group row">
