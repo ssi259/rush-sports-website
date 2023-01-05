@@ -6,9 +6,6 @@ import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-
-
-
 function Body(){
     return(
     <div className="background-image">
@@ -23,6 +20,7 @@ function Body(){
           for For?
         </div>
       </h3>
+      <Link to={"/enquiry"}> <button className="button-87">Join as a coach</button></Link>
       <div>
           <a href="https://play.google.com/store/apps/details?id=in.rushsports.playerapp" target="_blank" rel="noreferrer">
           <img src = {playstore} className = "play-store1" />

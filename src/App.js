@@ -7,6 +7,7 @@ import Policies from '../src/components/Policies'
 import Footer from '../src/components/Footer'
 import Policy from './components/Policy';
 import TnC from './components/tnc';
+import ContactModal from './components/ContactModal';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Body/>}></Route>
+          <Route path = "/enquiry" element={<ContactModal/>}></Route>
           <Route path = "/about" element={<About/>}></Route>
           <Route path = "/contactUs" element={<ContactUs/>}></Route>
           <Route path = "/policies" element={<Policies/>}></Route>
