@@ -67,7 +67,7 @@ const ContactModal = () => {
                     </div>
                     <input style={{marginTop:"2%",padding:"10px"}} type="text" placeholder="Email ID" className="form-control" id="email_id" onChange={handle} />
                     <input style={{ marginTop: "2%",padding:"10px" }} type="text" placeholder="Phone Number" className="form-control" id="mobile_number" onChange={handle} />
-                    <input style={{ marginTop: "2%",padding:"10px" }} type="text" placeholder="Description" className="form-control" id="description" onChange={handle} />
+                    <textarea style={{ marginTop: "2%",padding:"10px" }} type="text" placeholder="Description" className="form-control" id="description" onChange={handle} />
                 <button style={{ marginTop: "2%", padding: "10px", width: "100%",color:"white",fontSize:"20px",fontWeight:500, background:"#2847CC" }} onClick={submit} className="btn btn-primary">Submit</button>
             </div>
         </div>
